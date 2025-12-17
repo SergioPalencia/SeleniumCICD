@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="8" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-13T23:32:39 CET" name="Suite" finished-at="2025-12-13T23:33:42 CET" duration-ms="62438">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_Clientes.tc_CompraProducto(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" name="tc_CompraProducto" class="SPB.casosPrueba.TC_Clientes"/>
+        <method signature="TC_Errores.tc_LoginError()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" name="tc_LoginError" class="SPB.casosPrueba.TC_Errores"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2025-12-13T23:32:39 CET" name="TC Errores" finished-at="2025-12-13T23:33:24 CET" duration-ms="44573">
+      <class name="SPB.casosPrueba.TC_Errores">
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:32:39 CET" name="accederLandingPage" finished-at="2025-12-13T23:32:45 CET" duration-ms="5398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_CarritoError()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:32:45 CET" name="tc_CarritoError" finished-at="2025-12-13T23:33:05 CET" duration-ms="20527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CarritoError -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:05 CET" name="cierreEjecucion" finished-at="2025-12-13T23:33:06 CET" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:06 CET" name="accederLandingPage" finished-at="2025-12-13T23:33:10 CET" duration-ms="3861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method retried="true" signature="tc_LoginError()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:10 CET" name="tc_LoginError" finished-at="2025-12-13T23:33:11 CET" duration-ms="1132" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at SPB.casosPrueba.TC_Errores.tc_LoginError(TC_Errores.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_LoginError -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:11 CET" name="cierreEjecucion" finished-at="2025-12-13T23:33:11 CET" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:11 CET" name="accederLandingPage" finished-at="2025-12-13T23:33:15 CET" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method retried="true" signature="tc_LoginError()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:15 CET" name="tc_LoginError" finished-at="2025-12-13T23:33:16 CET" duration-ms="1077" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at SPB.casosPrueba.TC_Errores.tc_LoginError(TC_Errores.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_LoginError -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:16 CET" name="cierreEjecucion" finished-at="2025-12-13T23:33:18 CET" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:18 CET" name="accederLandingPage" finished-at="2025-12-13T23:33:22 CET" duration-ms="3757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_LoginError()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:22 CET" name="tc_LoginError" finished-at="2025-12-13T23:33:23 CET" duration-ms="1084" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at SPB.casosPrueba.TC_Errores.tc_LoginError(TC_Errores.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_LoginError -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Errores@7857fe2]" started-at="2025-12-13T23:33:24 CET" name="cierreEjecucion" finished-at="2025-12-13T23:33:24 CET" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+      </class> <!-- SPB.casosPrueba.TC_Errores -->
+    </test> <!-- TC Errores -->
+    <test started-at="2025-12-13T23:32:39 CET" name="TC Clientes" finished-at="2025-12-13T23:33:42 CET" duration-ms="62438">
+      <class name="SPB.casosPrueba.TC_Clientes">
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:32:40 CET" name="accederLandingPage" finished-at="2025-12-13T23:32:45 CET" duration-ms="5415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_CompraProducto(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:32:45 CET" name="tc_CompraProducto" data-provider="obtenerDatosTCCompra" finished-at="2025-12-13T23:33:06 CET" duration-ms="21474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{login=elquartojinetee@hotmail.com, password=Seleniumpass1, nombreProducto=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CompraProducto -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:06 CET" name="cierreEjecucion" finished-at="2025-12-13T23:33:07 CET" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:07 CET" name="accederLandingPage" finished-at="2025-12-13T23:33:11 CET" duration-ms="3663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_CompraProducto(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:11 CET" name="tc_CompraProducto" data-provider="obtenerDatosTCCompra" finished-at="2025-12-13T23:33:32 CET" duration-ms="21082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{login=elquartojinetee@hotmail.com, password=Seleniumpass1, nombreProducto=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CompraProducto -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:32 CET" name="cierreEjecucion" finished-at="2025-12-13T23:33:32 CET" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:32 CET" name="accederLandingPage" finished-at="2025-12-13T23:33:36 CET" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_HistorialPedidos(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:36 CET" name="tc_HistorialPedidos" data-provider="obtenerDatosTCCompra" finished-at="2025-12-13T23:33:37 CET" depends-on-methods="SPB.casosPrueba.TC_Clientes.tc_CompraProducto" duration-ms="998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{login=elquartojinetee@hotmail.com, password=Seleniumpass1, nombreProducto=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_HistorialPedidos -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:37 CET" name="cierreEjecucion" finished-at="2025-12-13T23:33:37 CET" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:37 CET" name="accederLandingPage" finished-at="2025-12-13T23:33:41 CET" duration-ms="3576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_HistorialPedidos(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:41 CET" name="tc_HistorialPedidos" data-provider="obtenerDatosTCCompra" finished-at="2025-12-13T23:33:42 CET" depends-on-methods="SPB.casosPrueba.TC_Clientes.tc_CompraProducto" duration-ms="963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{login=elquartojinetee@hotmail.com, password=Seleniumpass1, nombreProducto=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_HistorialPedidos -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Clientes@496bc455]" started-at="2025-12-13T23:33:42 CET" name="cierreEjecucion" finished-at="2025-12-13T23:33:42 CET" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+      </class> <!-- SPB.casosPrueba.TC_Clientes -->
+    </test> <!-- TC Clientes -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="SPB.utilidadesPruebas.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="TC Clientes(failed)" verbose="0">
+    <classes>
+      <class name="SPB.casosPrueba.TC_Clientes">
+        <methods>
+          <include name="tc_CompraProducto" invocation-numbers="0 1"/>
+          <include name="cierreEjecucion"/>
+          <include name="accederLandingPage"/>
+          <include name="tc_HistorialPedidos"/>
+        </methods>
+      </class> <!-- SPB.casosPrueba.TC_Clientes -->
+    </classes>
+  </test> <!-- TC Clientes(failed) -->
+  <test thread-count="5" parallel="tests" name="TC Errores(failed)" verbose="0">
+    <classes>
+      <class name="SPB.casosPrueba.TC_Errores">
+        <methods>
+          <include name="tc_CarritoError"/>
+          <include name="cierreEjecucion"/>
+          <include name="accederLandingPage"/>
+          <include name="tc_LoginError"/>
+        </methods>
+      </class> <!-- SPB.casosPrueba.TC_Errores -->
+    </classes>
+  </test> <!-- TC Errores(failed) -->
+</suite> <!-- Failed suite [Suite] -->

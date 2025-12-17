@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-14T14:14:38 CET" name="Suite" finished-at="2025-12-14T14:15:36 CET" duration-ms="58737">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_Clientes.tc_CompraProducto(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" name="tc_CompraProducto" class="SPB.casosPrueba.TC_Clientes"/>
+        <method signature="TC_Errores.tc_LoginError()[pri:0, instance:SPB.casosPrueba.TC_Errores@72035809]" name="tc_LoginError" class="SPB.casosPrueba.TC_Errores"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2025-12-14T14:14:38 CET" name="TC Errores" finished-at="2025-12-14T14:15:09 CET" duration-ms="31109">
+      <class name="SPB.casosPrueba.TC_Errores">
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Errores@72035809]" started-at="2025-12-14T14:14:38 CET" name="accederLandingPage" finished-at="2025-12-14T14:14:43 CET" duration-ms="4978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_CarritoError()[pri:0, instance:SPB.casosPrueba.TC_Errores@72035809]" started-at="2025-12-14T14:14:43 CET" name="tc_CarritoError" finished-at="2025-12-14T14:15:03 CET" duration-ms="20431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CarritoError -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Errores@72035809]" started-at="2025-12-14T14:15:03 CET" name="cierreEjecucion" finished-at="2025-12-14T14:15:03 CET" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Errores@72035809]" started-at="2025-12-14T14:15:03 CET" name="accederLandingPage" finished-at="2025-12-14T14:15:07 CET" duration-ms="3868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_LoginError()[pri:0, instance:SPB.casosPrueba.TC_Errores@72035809]" started-at="2025-12-14T14:15:07 CET" name="tc_LoginError" finished-at="2025-12-14T14:15:08 CET" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_LoginError -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Errores@72035809]" started-at="2025-12-14T14:15:08 CET" name="cierreEjecucion" finished-at="2025-12-14T14:15:09 CET" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+      </class> <!-- SPB.casosPrueba.TC_Errores -->
+    </test> <!-- TC Errores -->
+    <test started-at="2025-12-14T14:14:38 CET" name="TC Clientes" finished-at="2025-12-14T14:15:36 CET" duration-ms="58737">
+      <class name="SPB.casosPrueba.TC_Clientes">
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:14:38 CET" name="accederLandingPage" finished-at="2025-12-14T14:14:42 CET" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_CompraProducto(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:14:42 CET" name="tc_CompraProducto" data-provider="obtenerDatosTCCompra" finished-at="2025-12-14T14:15:04 CET" duration-ms="21568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{login=elquartojinetee@hotmail.com, password=Seleniumpass1, nombreProducto=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CompraProducto -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:04 CET" name="cierreEjecucion" finished-at="2025-12-14T14:15:04 CET" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:04 CET" name="accederLandingPage" finished-at="2025-12-14T14:15:08 CET" duration-ms="3993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_CompraProducto(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:08 CET" name="tc_CompraProducto" data-provider="obtenerDatosTCCompra" finished-at="2025-12-14T14:15:22 CET" duration-ms="13553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{login=elquartojinetee@hotmail.com, password=Seleniumpass1, nombreProducto=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CompraProducto -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:22 CET" name="cierreEjecucion" finished-at="2025-12-14T14:15:22 CET" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:22 CET" name="accederLandingPage" finished-at="2025-12-14T14:15:30 CET" duration-ms="7632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_HistorialPedidos(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:30 CET" name="tc_HistorialPedidos" data-provider="obtenerDatosTCCompra" finished-at="2025-12-14T14:15:31 CET" depends-on-methods="SPB.casosPrueba.TC_Clientes.tc_CompraProducto" duration-ms="1173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{login=elquartojinetee@hotmail.com, password=Seleniumpass1, nombreProducto=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_HistorialPedidos -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:31 CET" name="cierreEjecucion" finished-at="2025-12-14T14:15:31 CET" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+        <test-method is-config="true" signature="accederLandingPage()[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:31 CET" name="accederLandingPage" finished-at="2025-12-14T14:15:35 CET" duration-ms="3504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLandingPage -->
+        <test-method signature="tc_HistorialPedidos(java.util.HashMap)[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:35 CET" name="tc_HistorialPedidos" data-provider="obtenerDatosTCCompra" finished-at="2025-12-14T14:15:36 CET" depends-on-methods="SPB.casosPrueba.TC_Clientes.tc_CompraProducto" duration-ms="1133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{login=elquartojinetee@hotmail.com, password=Seleniumpass1, nombreProducto=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_HistorialPedidos -->
+        <test-method is-config="true" signature="cierreEjecucion()[pri:0, instance:SPB.casosPrueba.TC_Clientes@52719fb6]" started-at="2025-12-14T14:15:36 CET" name="cierreEjecucion" finished-at="2025-12-14T14:15:36 CET" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreEjecucion -->
+      </class> <!-- SPB.casosPrueba.TC_Clientes -->
+    </test> <!-- TC Clientes -->
+  </suite> <!-- Suite -->
+</testng-results>
